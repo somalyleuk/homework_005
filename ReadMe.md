@@ -1,0 +1,1 @@
+node ./src/type.js
