@@ -1,16 +1,7 @@
-// tsconfig.json
 {
-  "compilerOptions": {
-    "target": "ES2020", // Or a more recent target like "ESNext" for modern browsers
-    "module": "ESNext", // Use ES modules for browser compatibility
-    "rootDir": "./src", // Your source files are in the 'src' directory
-    "outDir": "./public/dist", // Output compiled JS to 'public/dist'
-    "strict": true, // Enable all strict type-checking options
-    "esModuleInterop": true, // Enables 'import D from "mod"' for CommonJS modules
-    "skipLibCheck": true, // Skip type checking of all declaration files (*.d.ts)
-    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
-    "moduleResolution": "node" // How modules are resolved (important for imports)
-  },
-  "include": ["src/**/*.ts"], // This tells TypeScript to compile all .ts files in the 'src' directory and its subdirectories
-  "exclude": ["node_modules"] // Exclude node_modules from compilation
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json"},
+    { "path": "./tsconfig.node.json"}
+  ]
 }
