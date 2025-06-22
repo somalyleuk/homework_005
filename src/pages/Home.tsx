@@ -32,7 +32,7 @@ export const Home = () => {
       {/* 1. Hero Section */}
       <section className="text-center bg-gray-100 dark:bg-gray-800 p-10 rounded-lg">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white">
-          Welcome to ShopZen
+          Welcome to FakeStore
         </h1>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
           Discover the best products, curated just for you. Quality and style in one place.

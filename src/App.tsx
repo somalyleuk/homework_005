@@ -5,6 +5,7 @@ import {Products} from "./components/products/Products.tsx";
 import {ProductDetail} from "./components/products/ProductDetail.tsx";
 import {Footer} from "./components/layout/Footer.tsx";
 import {Home} from "./pages/Home.tsx";
+import {NotFoundPage} from "./pages/NotFoundPage.tsx";
 
 function App() {
 
@@ -17,6 +18,9 @@ function App() {
                     <Route path="/" element={<Home/>}/>
                     <Route path="/products" element={<Products/>}/>
                     <Route path="/products/:id" element={<ProductDetail/>}/>
+                    <Route path="/account" element={<div>Account Page (Coming Soon)</div>}/>
+                    <Route path="/cart" element={<div>Shopping Cart (Coming Soon)</div>}/>
+                    <Route path="page-not-found" element={<NotFoundPage/>}/>
                 </Routes>
             </main>
             <Footer/>
